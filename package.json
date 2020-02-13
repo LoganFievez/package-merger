@@ -1,18 +1,17 @@
 {
-  "name": "package-merger",
-  "version": "0.1.0",
+  "name": "@log-fiev/package-merger",
+  "version": "0.1.1",
   "description": "This is an utility when you have an overwrite project and you need to merge the package.json files.",
   "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LoganFievez/package-merger.git"
   },
   "keywords": [
     "package",
-    "merger"
+    "merger",
+    "package-merger"
   ],
   "author": "LoganFievez",
   "license": "MIT",
@@ -30,5 +29,6 @@
     "lodash": "^4.17.15",
     "minimist": "^1.2.0",
     "touch": "^3.1.0"
-  }
+  },
+  "devDependencies": {}
 }
