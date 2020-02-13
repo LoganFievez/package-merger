@@ -1,6 +1,6 @@
 {
   "name": "package-merger-lf",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "This is an utility when you have an overwrite project and you need to merge the package.json files.",
   "main": "main.js",
   "scripts": {},
