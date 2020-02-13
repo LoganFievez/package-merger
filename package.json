@@ -1,5 +1,5 @@
 {
-  "name": "@log-fiev/package-merger",
+  "name": "package-merger-lf",
   "version": "0.1.1",
   "description": "This is an utility when you have an overwrite project and you need to merge the package.json files.",
   "main": "main.js",
@@ -13,6 +13,9 @@
     "merger",
     "package-merger"
   ],
+  "bin": {
+    "pm": "./main.js"
+  },
   "author": "LoganFievez",
   "license": "MIT",
   "bugs": {
