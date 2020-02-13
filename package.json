@@ -1,6 +1,6 @@
 {
   "name": "@log-fiev/package-merger",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This is an utility when you have an overwrite project and you need to merge the package.json files.",
   "main": "main.js",
   "scripts": {},
