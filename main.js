@@ -10,12 +10,14 @@ const argv = require('minimist')(process.argv.slice(2))._;
 
 clear();
 
-console.log(chalk.yellow(figlet.textSync('Package-merger', { horizontalLayout: 'full' })));
-console.log();
-
 const run = async () => {
   let [std, custo, output, trash] = argv;
   delete trash;
+
+  if (!(std && custo && output)) {
+    console.log(chalk.yellow(figlet.textSync('Package-merger', { horizontalLayout: 'full' })));
+    console.log();
+  }
 
   inquirer.askFolders(std, custo, output).then(folders => {
     std = folders.std || std;
