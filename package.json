@@ -14,7 +14,7 @@
     "package-merger"
   ],
   "bin": {
-    "pm": "./main.js"
+    "merge-package": "main.js"
   },
   "author": "LoganFievez",
   "license": "MIT",
