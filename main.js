@@ -8,13 +8,12 @@ const figlet = require('figlet');
 const inquirer = require('./lib/inquirer');
 const argv = require('minimist')(process.argv.slice(2))._;
 
-clear();
-
 const run = async () => {
   let [std, custo, output, trash] = argv;
   delete trash;
 
   if (!(std && custo && output)) {
+    clear();
     console.log(chalk.yellow(figlet.textSync('Package-merger', { horizontalLayout: 'full' })));
     console.log();
   }
