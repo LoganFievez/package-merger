@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // * Lib imports
 const files = require('./lib/files');
 const clear = require('clear');
