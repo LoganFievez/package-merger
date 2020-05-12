@@ -1,6 +1,6 @@
 {
   "name": "package-merger-lf",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "This is an utility when you have an overwrite project and you need to merge the package.json files.",
   "main": "main.js",
   "scripts": {},
@@ -23,14 +23,14 @@
   },
   "homepage": "https://github.com/LoganFievez/package-merger#readme",
   "dependencies": {
-    "chalk": "^3.0.0",
+    "chalk": "^4.0.0",
     "clear": "^0.1.0",
     "clui": "^0.3.6",
-    "configstore": "^5.0.0",
-    "figlet": "^1.2.4",
-    "inquirer": "^7.0.4",
+    "configstore": "^5.0.1",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.1.0",
     "lodash": "^4.17.15",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.5",
     "touch": "^3.1.0"
   },
   "devDependencies": {}
