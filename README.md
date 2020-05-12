@@ -5,13 +5,13 @@ This is an utility when you have an overwrite project and you need to merge the 
 # Usage
 
 ```sh
-pm [source_folder1] [source_folder2] [output_folder]
+merge-package [source_folder1] [source_folder2] [output_folder]
 ```
 
 OR
 
 ```sh
-pm
+merge-package
 ```
 
 and you will have this screen
